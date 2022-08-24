@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid red;
-  font-weight: 400;
+  font-family: "Lato", sans-serif;
   line-height: 1.8rem;
+  font-weight: 400;
 }
 .header {
   background-image: url(./img/bg.jpg);
@@ -35,20 +35,20 @@
   text-transform: uppercase;
   line-height: 5rem;
 }
-.full {
+.textwhite {
   background-color: rgb(241, 241, 241);
   color: #666;
   text-align: center;
-  padding: 48px 80px;
+  padding: 3rem 5rem;
 }
-.full h2 {
+.textwhite h2 {
   display: block;
   font-size: 1.5em;
-  margin: 20px 0;
   font-weight: 700;
 }
-.full p {
+.textwhite p {
   font-weight: 400;
+  margin-top: 1em;
 }
 .womanpic {
   background-image: url(./img/bg2.jpg);
@@ -57,20 +57,97 @@
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.7;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .logo {
-  height: 20vh;
+  height: 10vh;
 }
 .logo img {
   height: 100%;
 }
-.aws {
+.textblack {
   background-color: #282e34;
   color: #ddd;
-  padding: 48px 80px;
+  padding: 3rem 5rem;
   text-align: center;
+}
+.textblack h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.textblack p {
+  margin-top: 1em;
+  font-weight: 400;
+}
+.tablepeople {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wayto {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+.way {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
+.glassesman {
+  background-image: url(./img/bg4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+.cteam {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
+.choose {
+  background-image: url(./img/bg.jpg);
+  background-image: url(./img/bg.jpg);
+  background-size: contain;
+  background-position: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
